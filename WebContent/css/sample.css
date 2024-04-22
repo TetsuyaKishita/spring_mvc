@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.heading-22 {
+    padding: .5em .7em;
+    border-left: 5px solid #2589d0;
+    background-color: #f2f2f2;
+    color: #333333;
+    
+    text-align: center;
+}
+
+.center-1{
+	text-align: center;
+}
+
+.font-1{
+	font-size: 3rem;
+	text-align: center;
+}
+
+.textbox-1 {
+    width: 350px;
+    padding: 8px 10px;
+    border: 1px solid #969da3;
+    border-radius: 3px;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.textbox-1::placeholder {
+    color: #999;
+}
+
+.button-38 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 0 auto;
+    padding: .9em 2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #2589d0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.button-38:hover {
+    animation: anime-button-38 .3s linear infinite;
+}
+
+@keyframes anime-button-38 {
+    20% {
+        transform: translate(-2px, 2px);
+    }
+    40% {
+        transform: translate(-2px, -2px);
+    }
+    60% {
+        transform: translate(2px, 2px);
+    }
+    80% {
+        transform: translate(2px, -2px);
+    }
+}
