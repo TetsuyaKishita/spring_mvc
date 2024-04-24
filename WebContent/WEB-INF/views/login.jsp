@@ -18,7 +18,7 @@
 	<form action="${messageUrl}" method="post">
 	    <div class="center-1">
             <input type="text" class="textbox-1" placeholder="ID" name="id"/><br>
-            <input type="text" class="textbox-1" placeholder="PW" name="pw"/><br>
+            <input type="password" class="textbox-1" placeholder="PW" name="pw"/><br>
         </div>
 		<input type="submit" class="button-38" value="ログイン">
 	</form>
